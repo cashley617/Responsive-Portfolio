@@ -178,7 +178,8 @@ textarea {
     margin-bottom: 70px;
 }
 
-@media screen and (min-width: 699px) {
+
+/* @media screen and (min-width: 980px) {
     header {
         background: #4aaaa5;
         width: 175px;
@@ -258,6 +259,250 @@ textarea {
         background-color: #4aaaa5;
         color: white;
     }
+
+    #aboutMe {
+        padding-right: 2%;
+        padding-bottom: 1%;
+        height: 500px;
+        width: 175px;
+    }
 }
 
+@media screen and (min-width: 980px) {
+    header {
+        background: #4aaaa5;
+        width: 175px;
+        height: 30px;
+        text-align: center;
+        top: 170px;
+    }
+    
+    img { 
+        float: left;
+        padding-top: 1%;
+        padding-bottom: 10%;
+        height: 175px; 
+        width: 175px;
+    }
+    
+    .active {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        float: right;
+        justify-content: center;
+        text-align: center;
+    }
 
+    .active a {
+        border-right: 1px solid black;
+    }
+
+    .active a:last-child {
+        border-right: none;
+    }
+
+    .mainSection { 
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 2%;
+        width: 75%;
+        padding-top: 1%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        text-align: left;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topnav {
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        width: 100%;
+        overflow: hidden;
+        background: #ffffff;
+        border-bottom: 2px solid #cccccc;
+    }
+
+    .topnav2 {
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .topnav2 a {
+        justify-content: space-between;
+        color: #777777;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        float: right;
+        justify-content: center;
+    }
+
+    .topnav2 a:hover {
+        background-color: #4aaaa5;
+        color: white;
+    }
+} */
+
+@media screen and (min-width: 640px) {
+    header {
+        background: #4aaaa5;
+        color: red;
+        width: 175px;
+        height: 30px;
+        text-align: center;
+        top: 40%;
+        position: relative;
+    }
+
+    #one {
+        background: #4aaaa5;
+        width: 175px;
+        height: 30px;
+        text-align: center;
+        top: 150px;
+        position: relative;
+    }
+
+    #two {
+        background: #4aaaa5;
+        width: 175px;
+        height: 30px;
+        text-align: center;
+        top: 535px;
+        position: relative;
+    }
+
+
+    #three {
+            background: #4aaaa5;
+            width: 175px;
+            height: 30px;
+            text-align: center;
+            top: 710px;
+            position: relative;
+    }
+
+    #four {
+            background: #4aaaa5;
+            width: 175px;
+            height: 30px;
+            text-align: center;
+            top: 890px;
+            position: relative;
+    }
+
+    #five {
+        background: #4aaaa5;
+        width: 175px;
+        height: 30px;
+        text-align: center;
+        top: 225px;
+        position: relative;
+    }
+
+
+
+
+
+    
+    table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	
+    img { 
+        padding-top: 1%;
+        padding-bottom: 10%;
+        height: 175px; 
+        width: 175px;
+    }
+    
+    .active {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .active a {
+        border-right: 1px solid black;
+    }
+
+    .active a:last-child {
+        border-right: none;
+    }
+
+    .mainSection { 
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 2%;
+        width: 75%;
+        height: 1200px;
+        padding-top: 1%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        text-align: left;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topnav {
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        width: 100%;
+        overflow: hidden;
+        background: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        position: static
+    }
+
+    .topnav2 {
+        height: 100%;
+        margin: 0 auto;
+        position: static;
+    }
+
+    .topnav2 a {
+        justify-content: space-between;
+        color: #777777;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        float: right;
+        justify-content: center;
+        position: static;
+    }
+
+    .topnav2 a:hover {
+        background-color: #4aaaa5;
+        color: white;
+    }
+
+    #aboutMe {
+        padding-right: 2%;
+        padding-bottom: 1%;
+        height: 500px;
+        width: 475px;
+        justify-items: center;
+        margin-bottom: 10px;
+    }
+
+    #label {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background-color: #4aaaa5;
+        color: white;
+    }
+}
