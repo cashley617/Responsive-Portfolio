@@ -36,21 +36,21 @@ h1 {
 
 header {
     background: #4aaaa5;
-    width: 100px;
+    width: 100%;
     height: 25px;
     text-align: center;
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: relative;
-    top: 90px;
+    top: 170px;
 }
 
 img { 
     float: left;
     padding-top: 1%;
     padding-bottom: 10%;
-    height: 100px; 
-    width: 100px;
+    height: 215px; 
+    width: 215px;
     flex-grow: 1;
 }
 
@@ -123,7 +123,6 @@ textarea {
     margin-bottom: 10px;
     padding: 2%;
     width: 75%;
-    /* text-align: left; */
     align-content: left;
     align-items: left;
     justify-content: left;
@@ -184,10 +183,10 @@ textarea {
 }
 
 
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 980px) {
     header {
         background: #4aaaa5;
-        width: 175px;
+        width: 100%;
         height: 30px;
         text-align: center;
         top: 170px;
@@ -197,8 +196,9 @@ textarea {
         float: left;
         padding-top: 1%;
         padding-bottom: 10%;
-        height: 175px; 
-        width: 175px;
+        height: 215px; 
+        width: 215px;
+        flex-grow: 1;
     }
 
     p {
@@ -227,16 +227,11 @@ textarea {
     }
 
     .mainSection { 
-        margin: auto;
+        margin: 5%;
         margin-top: 10px;
         margin-bottom: 10px;
+        width: 75%;
         padding: 2%;
-        width: 100%;
-        padding-top: 1%;
-        padding-right: 2%;
-        padding-bottom: 2%;
-        padding-left: 2%;
-        text-align: left;
         align-content: left;
         align-items: left;
         justify-content: left;
@@ -276,8 +271,26 @@ textarea {
     #aboutMe {
         padding-right: 2%;
         padding-bottom: 1%;
-        height: 500px;
+        height: 200px;
         width: 175px;
+    }
+
+    #five {
+        background: #4aaaa5;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        top: 150px;
+        position: relative;
+    }
+
+    #four {
+        background: #4aaaa5;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        top: 150px;
+        position: relative;
     }
 
     #label {
@@ -291,7 +304,16 @@ textarea {
 
     #one {
         background: #4aaaa5;
-        width: 180px;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        top: 150px;
+        position: relative;
+    }
+
+    #three {
+        background: #4aaaa5;
+        width: 100%;
         height: 30px;
         text-align: center;
         top: 150px;
@@ -300,45 +322,15 @@ textarea {
 
     #two {
         background: #4aaaa5;
-        width: 180px;
+        width: 100%;
         height: 30px;
         text-align: center;
         top: 150px;
         position: relative;
-    }
-
-
-    #three {
-        background: #4aaaa5;
-        width: 180px;
-        height: 30px;
-        text-align: center;
-        top: 150px;
-        position: relative;
-    }
-
-    #four {
-        background: #4aaaa5;
-        width: 180px;
-        height: 30px;
-        text-align: center;
-        top: 150px;
-        position: relative;
-    }
-
-    #five {
-        background: #4aaaa5;
-        width: 180px;
-        height: 30px;
-        text-align: center;
-        top: 150px;
-        position: relative;
-    }
+    } 
 }
 
 @media screen and (max-width: 768px) {
-    
-
     header {
         background: #4aaaa5;
         color: white;
@@ -396,72 +388,43 @@ textarea {
         align-content: center;
         align-items: center;
         justify-content: center;
-        /* display: flex; */
     }
 
     .topnav {
-    margin: 0;
-    padding: 0;
-    height: 50px;
-    width: 100%;
-    overflow: hidden;
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    font-family: 'Georgia', Times, Georgia, 'Times New Roman', Times, serif;
-}
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        width: 100%;
+        overflow: hidden;
+        background: #ffffff;
+        border-bottom: 2px solid #cccccc;
+        font-family: 'Georgia', Times, Georgia, 'Times New Roman', Times, serif;
+    }
 
-.topnav2 {
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.topnav2 a {
-    width: 100px;
-    justify-content: space-between;
-    color: #777777;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    float: right;
-    justify-content: center;
-}
-
-.topnav2 a:hover {
-    background-color: #4aaaa5;
-    color: white;
-}
-
-        #label {
-        float: left;
+    .topnav2 {
         height: 100%;
-        align-items: left;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .topnav2 a {
+        width: 100px;
+        justify-content: space-between;
+        color: #777777;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        float: right;
         justify-content: center;
+    }
+
+    .topnav2 a:hover {
         background-color: #4aaaa5;
         color: white;
     }
 
-    #one {
-        background: #4aaaa5;
-        width: 180px;
-        height: 30px;
-        text-align: center;
-        top: 150px;
-        position: relative;
-    }
-
-    #two {
-        background: #4aaaa5;
-        width: 180px;
-        height: 30px;
-        text-align: center;
-        top: 150px;
-        position: relative;
-    }
-
-
-    #three {
+    #five {
         background: #4aaaa5;
         width: 180px;
         height: 30px;
@@ -479,7 +442,16 @@ textarea {
         position: relative;
     }
 
-    #five {
+    #label {
+        float: left;
+        height: 100%;
+        align-items: left;
+        justify-content: center;
+        background-color: #4aaaa5;
+        color: white;
+    }
+
+    #one {
         background: #4aaaa5;
         width: 180px;
         height: 30px;
@@ -488,8 +460,23 @@ textarea {
         position: relative;
     }
 
-   
+    #three {
+        background: #4aaaa5;
+        width: 180px;
+        height: 30px;
+        text-align: center;
+        top: 150px;
+        position: relative;
+    }
 
+    #two {
+        background: #4aaaa5;
+        width: 180px;
+        height: 30px;
+        text-align: center;
+        top: 150px;
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -508,8 +495,6 @@ textarea {
         height: 30px;
         text-align: center;
         display: inline-block;
-        /* top: 40%; */
-        /* position: fixed; */
     }
 
     img { 
@@ -563,7 +548,6 @@ textarea {
         padding-right: 2%;
         padding-bottom: 2%;
         padding-left: 2%;
-        /* text-align: left; */
         align-content: center;
         align-items: center;
         justify-content: center;
@@ -619,6 +603,24 @@ textarea {
         align-items: center;
     }
 
+    #five {
+        background: #4aaaa5;
+        width: 150px;
+        height: 30px;
+        text-align: center;
+        top: 130px;
+        position: relative;
+    }
+
+    #four {
+        background: #4aaaa5;
+        width: 150px;
+        height: 30px;
+        text-align: center;
+        top: 130px;
+        position: relative;
+    }
+
     #label {
         width: 100%;
         height: 100%;
@@ -636,15 +638,11 @@ textarea {
         position: flex;
     }
 
-    #two {
-        background: #4aaaa5;
-        width: 150px;
-        height: 30px;
-        text-align: center;
-        top: 130px;
-        position: flex;
+    #test {
+        margin: 10px;
+        display: block;
+        flex-grow: 1;
     }
-
 
     #three {
         background: #4aaaa5;
@@ -655,27 +653,12 @@ textarea {
         position: flex;
     }
 
-    #four {
+    #two {
         background: #4aaaa5;
         width: 150px;
         height: 30px;
         text-align: center;
         top: 130px;
-        position: relative;
-    }
-
-    #five {
-        background: #4aaaa5;
-        width: 150px;
-        height: 30px;
-        text-align: center;
-        top: 130px;
-        position: relative;
-    }
-
-    #test {
-        margin: 10px;
-        display: block;
-        flex-grow: 1;
-    }
+        position: flex;
+    }  
 }
