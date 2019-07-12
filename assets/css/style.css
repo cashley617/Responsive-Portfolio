@@ -1,6 +1,6 @@
 
 body {
-    background: #8e9eab; 
+    background: black; 
     background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab); 
     background: linear-gradient(to right, #eef2f3, #8e9eab); 
     margin: 0;
@@ -11,18 +11,18 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #666666;
+    background-color: black;
     color: #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
     vertical-align: baseline;
     height: 5%;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #d8661f;
     padding: 10px;
 }
 
 form {
-    color: #777777;
+    color: black;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -34,7 +34,7 @@ h1 {
 }
 
 header {
-    background: #4aaaa5;
+    background: #d8661f;
     width: 175px;
     height: 30px;
     text-align: center;
@@ -62,7 +62,7 @@ input {
 }
 
 input[type=button], input[type=submit] {
-  background-color: #4aaaa5;
+  background-color: #d8661f;
   border: none;
   color: #ffffff;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -76,7 +76,7 @@ input[type=button], input[type=submit] {
 p {
     align-content: top;
     line-height: 30px;
-    color: #777777;
+    color: black;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
